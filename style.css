@@ -1,0 +1,57 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    background-color: #d3d3d3;
+    justify-content: flex-start;
+}
+
+#basetitulo{
+    background-color: #e5383b;
+    justify-content: center;
+    
+}
+
+.titulo{
+    font-size: large;
+    justify-content: center;
+    display: flex; 
+}
+
+.corpo-da-bio{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.biografia1{
+    font-size: large;
+    background-color:#f5f3f4;
+    margin: 30px 50px;
+    padding: 10px;
+    border: 5px solid #161a1d;
+    border-radius: 5%;
+    width: 100vh;
+    box-shadow: 2px 5px 20px black; 
+    align-items: flex-start;
+}
+
+.foto-bio{
+    margin: 30px 50px;
+    border-radius: 5%;
+    border: 5px solid #161a1d;
+    width: 15%;
+    box-shadow: 2px 5px 20px black;
+}
+
+.ig{
+    border-radius: 30%;
+}
